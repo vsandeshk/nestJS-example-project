@@ -10,6 +10,11 @@ export class MessagesController {
 
     @Post()
     createMessages() {
+
+    }
+
+    @Get('/:id')
+    getMessage() {
         
     }
 
